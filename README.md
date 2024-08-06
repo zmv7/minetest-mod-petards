@@ -1,6 +1,6 @@
 # minetest-mod-petards
-Little pyrotechnics mod
-
+Little pyrotechnics mod  
+[![ContentDB](https://content.minetest.net/packages/Zemtzov7/petards/shields/downloads/)](https://content.minetest.net/packages/Zemtzov7/petards/)
 ### Depends
 * tnt
 * default
