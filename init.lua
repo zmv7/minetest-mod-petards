@@ -44,7 +44,7 @@ minetest.register_craftitem("petards:confetti_petard",{
 				collisiondetection = true,
 				collision_removal = true,
 				vertical = false,
-				texture = "petards_particle.png^[colorize:"..colors[rnd(1,#colors)]..":255",
+				texture = table.concat({"petards_particle.png^[colorize:",colors[rnd(1,#colors)],":255"}),
 				glow = 14
 			})
 		end
